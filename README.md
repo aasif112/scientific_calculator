@@ -1,2 +1,3 @@
-"# Scientific-Calculator_PIAIC_Assignment" 
-"# Scientific-Calculator_PIAIC_Assignment" 
+# Scientific Calculator
+<p>As PIAIC student I Learnt to make a simple calculator with Typescript, and NodeJS</p>
+<p> I have made this as extended to that simple calculator.</p>
