@@ -155,9 +155,11 @@ async function startCalculator() {
     }
 }
 async function showCalculation(showResult) {
+    console.log('');
     console.log(`${showResult}`);
 }
 async function endCalculator() {
+    console.log('');
     const askToEnd = await inquirer.prompt([
         { message: "Do you want to make another calculation:",
             name: "askToEnd", type: "list", choices: ["Yes", "No"]
@@ -167,6 +169,7 @@ async function endCalculator() {
         startCalculator();
     }
     else {
+        console.log('');
         console.log(`-----------Thank you for using this calculator -----------`);
     }
 }

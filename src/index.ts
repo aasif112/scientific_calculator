@@ -178,19 +178,21 @@ else if(selectCal.type === "Trignometric") {
 }
 
 async function showCalculation(showResult:string) {
+console.log('')
 console.log(`${showResult}`)  
 }
 
 async function endCalculator() {
-const askToEnd = await inquirer.prompt([
-    {message:"Do you want to make another calculation:",
-        name:"askToEnd",    type:"list",    choices:["Yes", "No"]
-    }
-])
-if(askToEnd.askToEnd === "Yes") {
-    startCalculator()
-}   else  {
+    console.log('');
+    const askToEnd = await inquirer.prompt([
+        {message:"Do you want to make another calculation:",
+            name:"askToEnd",    type:"list",    choices:["Yes", "No"]
+        }
+    ])
+    if(askToEnd.askToEnd === "Yes") {
+        startCalculator()
+    }   else  {
+        console.log('');
         console.log(`-----------Thank you for using this calculator -----------`)
 }
-
 }
