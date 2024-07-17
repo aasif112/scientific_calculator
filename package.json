@@ -1,10 +1,10 @@
 {
   "name": "@aasifali/scientific_calculator",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "trying to make a scientific calculator with TypeScript, Node.js and inquirer",
   "main": "index.js",
   "type": "module",
-  "bin": "index.js",
+  "bin": "dist/index.js",
   "publishConfig": {
     "access": "public"
   },
